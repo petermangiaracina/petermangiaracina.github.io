@@ -1,0 +1,32 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  background: #fff;
+  color: #1f2933;
+}
+.site-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+main {
+  padding: 2rem 1.25rem 3rem;
+  text-align: center;
+}
+h1 {
+  margin: 0 auto 2rem;
+  max-width: 900px;
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
+  font-weight: 600;
+  line-height: 1.2;
+}
+.bio-photo {
+  display: block;
+  width: min(360px, 85vw);
+  height: auto;
+  margin: 0 auto;
+  border-radius: 12px;
+}
