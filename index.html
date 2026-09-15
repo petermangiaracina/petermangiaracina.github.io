@@ -14,6 +14,19 @@ a{color:inherit;text-decoration:none}button{font:inherit}a:focus-visible,button:
 @media(max-width:1000px){.wrap{width:calc(100% - 48px)}.grid{grid-template-columns:repeat(2,1fr)}.cover{height:270px}.feature-copy{padding:28px}.navigation nav{gap:16px}.about{gap:32px}.intro p{max-width:270px}.intro h2{letter-spacing:-1px}}
 @media(max-width:650px){.wrap{width:calc(100% - 32px)}.utility{font-size:8px;letter-spacing:1px;padding:16px 0}.utility .edition{display:none}.masthead{padding:24px 0 20px}.masthead h1{font-size:clamp(28px,7.4vw,48px);letter-spacing:-.065em}.navigation{align-items:start;flex-direction:column;gap:15px}.brandline{font-size:20px}.navigation nav{width:100%;gap:15px;flex-wrap:wrap;font-size:12px}.intro{padding:28px 0;display:block}.intro h2{font-size:38px;letter-spacing:-1.5px}.intro p{margin-top:16px;max-width:100%}.feature{grid-template-columns:1fr}.landscape{min-height:275px}.feature-copy{padding:28px}.feature h2{font-size:42px}.grid{gap:28px 16px}.cover{height:185px;padding:17px}.cover b{font-size:40px}.dialogue b{font-size:32px}.tips b{font-size:65px}.tips em{font-size:18px}.cover small{font-size:8px}.sheet{padding:15px;width:100%}.sheet b{font-size:28px}.card h3{font-size:19px}.card p{font-size:13px}.section-top{margin-top:32px}.section-top h2{font-size:21px}.section-top span{max-width:130px;line-height:1.5;text-align:right}.about{grid-template-columns:1fr;gap:28px;margin-top:35px}.portrait img{max-height:460px}.contact-line{align-items:start;flex-direction:column;padding:25px}footer{font-size:10px;line-height:1.5}.bio p{font-size:15px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Teaching background and approach */
+.teaching-section{margin-top:48px;padding-top:30px;border-top:1px solid var(--ink);display:grid;grid-template-columns:1fr 1.35fr;gap:64px}
+.teaching-section>header,.teaching-copy{min-width:0}
+.teaching-section h2{font-size:clamp(28px,3.4vw,46px);line-height:1.08;letter-spacing:-1.5px;margin:0 0 16px}
+.teaching-section h3{font-family:Georgia,serif;font-size:24px;font-weight:400;margin:0 0 24px}
+.teaching-copy p{font-size:16px;line-height:1.75;margin:0 0 20px;max-width:68ch}
+.teaching-section .eyebrow{color:var(--red)}
+.method-example{margin:28px 0 0;padding:22px 0 22px 22px;border-left:3px solid var(--red);max-width:350px}
+.method-example blockquote{font-family:Georgia,serif;font-size:clamp(24px,2.6vw,34px);line-height:1.2;margin:0 0 12px}
+.method-example figcaption{line-height:1.6}
+@media(max-width:1000px){.teaching-section{gap:32px}}
+@media(max-width:650px){.teaching-section{grid-template-columns:1fr;gap:12px;margin-top:32px;padding-top:24px}.teaching-copy p{font-size:15px}.method-example{margin:20px 0}.teaching-section h2{letter-spacing:-1px}}
 </style>
 </head>
 <body>
@@ -58,6 +71,27 @@ a{color:inherit;text-decoration:none}button{font:inherit}a:focus-visible,button:
 <p>I've spent many years teaching and studying how people acquire language and am in the process of making all my discoveries available in the form of slideshows, videos and my blog.</p>
 <p class="languages">I speak English, <span lang="es">hablo español</span>, <span lang="it">e parlo un po' l'italiano!</span></p>
 </div></section>
+
+<section class="teaching-section" id="education" aria-labelledby="education-title">
+<header><span class="eyebrow">Professional background</span><h2 id="education-title">Education and Activities</h2></header>
+<div class="teaching-copy">
+<p>I am a psychologist and have taught English for the past 30 years. I have been certified by the Accrediting Council for Continuing Education and Training (USA). Currently, I teach doctors and other professionals in the Canary Islands, Spain.</p>
+<p>I have my own natural and cognitive method of teaching, using materials I have developed over the years, many of them available on the Internet for my students.</p>
+<p>I teach all levels from beginning to conversation. I can help prepare presentations or speeches, assist in professional writing (medical articles, business letters, etc.) and test preparation (TOEFL, First and Advanced Certificates, IELTS).</p>
+</div>
+</section>
+<section class="teaching-section" id="approach" aria-labelledby="approach-title">
+<header><span class="eyebrow">My teaching method</span><h2 id="approach-title">English in Your Face</h2><h3>A Cognitive Approach</h3>
+<figure class="method-example"><blockquote>“Tomorrow comes my friend.”</blockquote><figcaption>Spanish syntax. English words.</figcaption></figure>
+</header>
+<div class="teaching-copy">
+<p>To speak effectively you need to look at language from a cognitive perspective. Many English as a Second Language (ESL) teachers spend most of the time asking you to translate from your native language to English.</p>
+<p>However, making an association between your native language, which already exerts a strong influence over your thought process, and a new language, with which you are for the most part unfamiliar, causes you to forget or at best confuse your native tongue with your new language. This causes many syntax errors. For example, my Spanish students frequently say things like, “Tomorrow comes my friend.” Spanish syntax, English words. The problem is much more common than you might think.</p>
+<p>We avoid this by teaching “what lies behind” sentences (their structure), for although there are more than one million words in the English language, there are many fewer constructions, with two or three the basis for all the others.</p>
+<p>If you learn these constructions by practicing them repeatedly, it becomes a matter of just “plugging in” the vocabulary. Learning these structures, from the simplest to the most complicated, should be the primary goal of any language learning process.</p>
+</div>
+</section>
+
 <section class="contact-line"><div><h2>Let’s find something to talk about.</h2><p>Explore the material. Get to know the teacher.</p></div><a class="outline" href="#about">Meet Peter &nbsp; ↗</a></section>
 </main>
 <footer><span>© 2026 Peter Mangiaracina</span><span>A new chapter in English. · Homepage preview</span><a href="#main">Back to top ↑</a></footer>
