@@ -42,6 +42,7 @@ a{color:inherit;text-decoration:none}button{font:inherit}a:focus-visible,button:
 .workbook-access{margin:28px 0 0;padding:16px 0;border-top:1px solid var(--line);font-size:13px;line-height:1.6;color:var(--muted)}
 @media(max-width:800px){.workbook-grid{gap:20px}.workbook-art{padding:24px 12px}.workbook h3{font-size:21px}}
 @media(max-width:650px){.workbook-grid{grid-template-columns:1fr;gap:30px}.workbook-art{padding:26px}.workbook-heading{display:block}.workbooks{margin-top:32px}.workbooks-intro{font-size:15px}.workbook p{max-width:55ch}}
+.learning-cycle{background:#e5e2d8;min-height:420px}.learning-cycle svg{position:relative;display:block;width:100%;height:100%;min-height:420px;max-height:560px;padding:12px}@media(max-width:650px){.learning-cycle{min-height:280px}.learning-cycle svg{min-height:280px;padding:4px}}
 </style>
 </head>
 <body>
@@ -55,19 +56,21 @@ a{color:inherit;text-decoration:none}button{font:inherit}a:focus-visible,button:
 <main id="main">
 <section class="intro" aria-label="Introduction"><div><h2>Observation, Imitation, Repetition.</h2><p style="max-width:650px;margin-top:20px">We don't learn a language by studying grammar rules. We learn by opening our ears.</p></div></section>
 <section class="feature" aria-labelledby="feature-title">
-<div class="landscape">
-<svg viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustrated Atlantic coastline with volcanic cliffs and a warm evening sky">
-<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#c5c2af"/><stop offset="1" stop-color="#e8cf9f"/></linearGradient><linearGradient id="sea" x2=".7" y2="1"><stop stop-color="#759898"/><stop offset="1" stop-color="#294b52"/></linearGradient></defs>
-<path fill="url(#sky)" d="M0 0h900v560H0z"/><circle cx="695" cy="142" r="49" fill="#f2deb0"/><path fill="url(#sea)" d="M0 255h900v305H0z"/>
-<path fill="#8d9990" d="m0 281 174-52 133 38 71 42 60 10-15 57L0 399z"/>
-<path fill="#46594f" d="m0 241 116 4 85 50 91 44 155 14 55 45-33 61L0 537z"/>
-<path fill="#2f3d32" d="m0 318 100 7 92 54 152 28 36 60 153 60 40 33H0z"/>
-<path fill="#65715a" d="m0 301 100 20 109 53 128 28 43 28-173-27L0 354z"/>
-<path fill="none" stroke="#ded9bb" stroke-opacity=".68" stroke-width="3" d="m425 331 32 33 58 20-30 53 11 13 86 42M578 297l210-2M619 326l188-2M630 375l229 1M677 415l159 3"/>
-<path fill="none" stroke="#d9cda9" stroke-width="4" d="m0 380 68 1 43 35 48 3 76 37 24 51"/>
-<path fill="none" stroke="#283a39" stroke-width="2" d="m438 141 11-3 10 5m42-37 8-2 7 3"/>
-</svg><span class="caption">Atlantic field notes / Sample illustration</span></div>
-<div class="feature-copy"><span class="eyebrow">Featured / Video preview</span><h2 id="feature-title">An island.<br>A different<br>point of view.</h2><p>A walk along the Atlantic, a change of perspective, and a few words worth taking with you. English starts with something to talk about.</p><button class="outline" type="button" id="preview">Explore the video concept &nbsp; ↗</button></div>
+<div class="landscape learning-cycle">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="cycle-title cycle-desc">
+<title id="cycle-title">Observation, Imitation, Repetition</title>
+<desc id="cycle-desc">A clockwise learning cycle: Observation at the top leads to Imitation at the lower right, then Repetition at the lower left, and back to Observation.</desc>
+<defs><marker id="cycle-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1L9 5L1 9" fill="none" stroke="#a33729" stroke-width="1.5" stroke-linejoin="round"/></marker></defs>
+<g fill="none" stroke="#a33729" stroke-width="3" marker-end="url(#cycle-arrow)">
+<path d="M436 117 A180 180 0 0 1 539 296"/>
+<path d="M463 427 A180 180 0 0 1 257 427"/>
+<path d="M181 296 A180 180 0 0 1 284 117"/>
+</g>
+<g fill="#efede6" stroke="#26332f" stroke-width="2"><circle cx="360" cy="100" r="72"/><circle cx="516" cy="370" r="72"/><circle cx="204" cy="370" r="72"/></g>
+<g fill="#26332f" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="middle"><text x="360" y="107">Observation</text><text x="516" y="377">Imitation</text><text x="204" y="377">Repetition</text></g>
+<text x="360" y="270" fill="#62645d" font-family="Georgia, serif" font-size="23" text-anchor="middle">The learning</text><text x="360" y="300" fill="#62645d" font-family="Georgia, serif" font-size="23" text-anchor="middle">cycle</text>
+</svg></div>
+<div class="feature-copy"><span class="eyebrow">A cognitive approach</span><h2 id="feature-title">Observation.<br>Imitation.<br>Repetition.</h2><p>Listen to how the language is used. Imitate what you hear. Repeat until the structures become familiar. Then listen again.</p><a class="outline" href="#approach">Read about my method &nbsp; ↗</a></div>
 </section>
 <section id="resources" aria-labelledby="resource-title">
 <div class="section-top"><h2 id="resource-title">On the learning table</h2><span>Sample selections · More to come</span></div>
@@ -127,10 +130,6 @@ a{color:inherit;text-decoration:none}button{font:inherit}a:focus-visible,button:
 </main>
 <footer><span>© 2026 Peter Mangiaracina</span><span>A new chapter in English. · Homepage preview</span><a href="#main">Back to top ↑</a></footer>
 </div>
-<dialog id="video-preview" aria-labelledby="dialog-title"><span class="eyebrow">Featured video / Coming soon</span><h2 id="dialog-title">An island. A different point of view.</h2><p>This is a sample cover for a future video. Peter’s own footage and a complete lesson will take its place.</p><form method="dialog"><button>Back to the homepage</button></form></dialog>
-<script>
-const preview=document.getElementById('video-preview');
-document.getElementById('preview').addEventListener('click',()=>preview.showModal());
-preview.addEventListener('click',event=>{if(event.target===preview){const r=preview.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)preview.close();}});
-</script>
+
+
 </body></html>
