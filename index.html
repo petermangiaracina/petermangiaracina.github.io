@@ -1,27 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Peter Mangiaracina</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="English with Peter Mangiaracina. Language, conversation and ideas from a New Yorker teaching in the Canary Islands.">
+<meta name="theme-color" content="#efede6">
+<title>Peter Mangiaracina — English & Ideas</title>
+<style>
+:root{--paper:#efede6;--ink:#20221f;--red:#a33729;--muted:#62645d;--line:#c4c4b8}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.12;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23888' filter='url(%23n)' opacity='.25' d='M0 0h180v180H0z'/%3E%3C/svg%3E");z-index:5}
+a{color:inherit;text-decoration:none}button{font:inherit}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--red);outline-offset:5px}a:hover{color:var(--red)}.wrap{width:min(1380px,calc(100% - 96px));margin:auto}.utility{display:flex;justify-content:space-between;padding:22px 0 18px;border-bottom:1px solid var(--ink);font-size:11px;letter-spacing:1.5px;text-transform:uppercase}.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--red);margin-right:8px}.masthead{padding:25px 0 23px;border-bottom:4px solid var(--ink)}.masthead h1{margin:0;font-size:clamp(32px,6.65vw,94px);letter-spacing:-.065em;line-height:1.05;font-weight:800}.navigation{display:flex;justify-content:space-between;gap:24px;align-items:center;border-bottom:1px solid var(--ink);padding:17px 0}.brandline{font-family:Georgia,serif;font-style:italic;font-size:22px}.navigation nav{display:flex;gap:26px;font-size:13px}.intro{display:flex;justify-content:space-between;gap:32px;align-items:end;padding:39px 0 30px}.intro h2{font-size:clamp(30px,3.7vw,52px);letter-spacing:-2px;line-height:1.07;margin:0;max-width:650px}.intro p{font-size:15px;line-height:1.6;max-width:320px;margin:0;color:var(--muted)}.eyebrow{text-transform:uppercase;font-size:10px;letter-spacing:1.8px;font-weight:700;display:block;margin-bottom:16px}.feature{display:grid;grid-template-columns:1.65fr 1fr;background:#26332f;color:#f3f0e6;min-height:420px}.landscape{position:relative;overflow:hidden;min-height:420px;background:#7a9899}.landscape svg{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}.landscape .caption{position:absolute;left:24px;bottom:20px;font-size:10px;letter-spacing:1.6px;text-transform:uppercase;color:white}.feature-copy{padding:40px;display:flex;flex-direction:column;align-items:start;justify-content:center}.feature-copy .eyebrow{color:#d0b995}.feature h2{font-family:Georgia,serif;font-size:clamp(34px,3.7vw,52px);line-height:1.04;font-weight:400;letter-spacing:-1.5px;margin:9px 0 20px}.feature p{color:#d0d5cf;font-size:15px;line-height:1.65;margin:0 0 24px}.outline{border:1px solid #bec4b9;background:transparent;color:inherit;padding:13px 17px;cursor:pointer;font-size:12px}.outline:hover{background:#efede6;color:#20221f}.section-top{display:flex;justify-content:space-between;align-items:baseline;gap:20px;margin:42px 0 22px;border-bottom:1px solid var(--ink);padding-bottom:13px}.section-top h2{margin:0;font-size:24px;letter-spacing:-.7px}.section-top span{font-size:11px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}.card{min-width:0}.cover{height:230px;overflow:hidden;position:relative;padding:24px;display:flex;flex-direction:column;justify-content:space-between}.cover small{font-size:9px;letter-spacing:1.7px;text-transform:uppercase}.cover b{font-size:54px;letter-spacing:-3px;line-height:.94}.grammar{background:#a2382b;color:#f2e9d8}.grammar .plus{font-family:Georgia,serif;font-size:100px;line-height:.7;text-align:right;opacity:.5}.dialogue{background:#d8b66e;color:#282b25}.dialogue b{font-family:Georgia,serif;font-weight:400;font-size:46px;letter-spacing:-2px}.dialogue .reply{align-self:end}.document{background:#c3cbc5;color:#233c38}.sheet{transform:rotate(-9deg);background:#efede6;width:83%;margin:6px auto -65px;padding:22px;min-height:225px;box-shadow:10px 10px 0 #203e3820}.sheet b{font-family:Georgia,serif;font-size:38px;line-height:1}.sheet i{display:block;height:1px;background:#9eaaa1;margin-top:12px}.tips{background:#222723;color:#efede6}.tips b{font-family:Georgia,serif;font-size:92px;color:#c9b18a;font-weight:400}.tips em{font-style:normal;font-size:22px;letter-spacing:-.7px}.category{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--red);margin:20px 0 10px;font-weight:bold}.card h3{font-size:22px;letter-spacing:-.65px;line-height:1.15;margin:0 0 12px}.card p{font-size:14px;line-height:1.6;color:var(--muted);margin:0 0 14px}.card details{border-top:1px solid var(--line);font-size:13px}.card summary{padding:13px 0;cursor:pointer;font-size:12px;font-weight:bold}.card details p{font-size:13px}.about{margin-top:55px;border-top:4px solid var(--ink);padding-top:32px;display:grid;grid-template-columns:1fr 1.35fr;gap:64px}.portrait{margin:0}.portrait img{display:block;width:100%;max-height:530px;object-fit:cover;object-position:center 25%;filter:grayscale(1)}figcaption{margin-top:12px;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}.about h2{font-family:Georgia,serif;font-weight:400;font-size:clamp(35px,4vw,54px);line-height:1.05;letter-spacing:-1.8px;margin:12px 0 24px}.bio p{font-size:16px;line-height:1.75;margin:0 0 18px}.languages{border-top:1px solid var(--line);padding-top:18px;font-family:Georgia,serif;font-style:italic}.contact-line{margin:50px 0 0;background:var(--ink);color:var(--paper);padding:30px;display:flex;align-items:center;justify-content:space-between;gap:24px}.contact-line h2{font-family:Georgia,serif;font-size:28px;font-weight:400;margin:0 0 8px}.contact-line p{font-size:14px;margin:0;color:#c1c3bb}footer{padding:25px 0 30px;display:flex;justify-content:space-between;gap:24px;font-size:11px;color:var(--muted)}dialog{max-width:520px;width:calc(100% - 40px);border:1px solid var(--ink);padding:32px;background:var(--paper);color:var(--ink)}dialog::backdrop{background:#15201be0}dialog h2{font-family:Georgia,serif;font-size:32px;font-weight:400}dialog p{line-height:1.6}dialog button{padding:10px 18px;background:var(--ink);color:var(--paper);border:0;cursor:pointer}.skip{position:absolute;left:15px;top:-100px;background:white;padding:12px;z-index:10}.skip:focus{top:10px}
+@media(min-width:1600px){.masthead h1{font-size:96px}}
+@media(max-width:1000px){.wrap{width:calc(100% - 48px)}.grid{grid-template-columns:repeat(2,1fr)}.cover{height:270px}.feature-copy{padding:28px}.navigation nav{gap:16px}.about{gap:32px}.intro p{max-width:270px}.intro h2{letter-spacing:-1px}}
+@media(max-width:650px){.wrap{width:calc(100% - 32px)}.utility{font-size:8px;letter-spacing:1px;padding:16px 0}.utility .edition{display:none}.masthead{padding:24px 0 20px}.masthead h1{font-size:clamp(28px,7.4vw,48px);letter-spacing:-.065em}.navigation{align-items:start;flex-direction:column;gap:15px}.brandline{font-size:20px}.navigation nav{width:100%;gap:15px;flex-wrap:wrap;font-size:12px}.intro{padding:28px 0;display:block}.intro h2{font-size:38px;letter-spacing:-1.5px}.intro p{margin-top:16px;max-width:100%}.feature{grid-template-columns:1fr}.landscape{min-height:275px}.feature-copy{padding:28px}.feature h2{font-size:42px}.grid{gap:28px 16px}.cover{height:185px;padding:17px}.cover b{font-size:40px}.dialogue b{font-size:32px}.tips b{font-size:65px}.tips em{font-size:18px}.cover small{font-size:8px}.sheet{padding:15px;width:100%}.sheet b{font-size:28px}.card h3{font-size:19px}.card p{font-size:13px}.section-top{margin-top:32px}.section-top h2{font-size:21px}.section-top span{max-width:130px;line-height:1.5;text-align:right}.about{grid-template-columns:1fr;gap:28px;margin-top:35px}.portrait img{max-height:460px}.contact-line{align-items:start;flex-direction:column;padding:25px}footer{font-size:10px;line-height:1.5}.bio p{font-size:15px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
 </head>
 <body>
-  <img class="site-banner" src="images/banner.png" alt="English learning banner">
-  <nav class="site-nav" aria-label="Main navigation">
-    <a href="index.html">Home</a>
-    <a href="documents/">Documents</a>
-    <a href="videos/">Videos</a>
-    <a href="presentations/">Presentations</a>
-    <a href="contact/">Contact</a>
-  </nav>
-  <main>
-    <h1>Under construction. Check back here for Peter's new English website in November.</h1>
-    <img class="bio-photo" src="images/peter-mangiaracina.jpg" alt="Peter Mangiaracina">
-  </main>
-  <script src="js/main.js"></script>
-</body>
-</html>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+<header>
+<div class="utility"><span><span class="dot"></span>New York roots. Canary Islands life.</span><span class="edition">Language · Culture · Conversation</span></div>
+<div class="masthead"><h1>Peter Mangiaracina<span style="color:var(--red)">.</span></h1></div>
+<div class="navigation"><a class="brandline" href="#main">English &amp; ideas.</a><nav aria-label="Main navigation"><a href="#resources">Explore</a><a href="videos/">Videos</a><a href="presentations/">Presentations</a><a href="documents/">Documents</a><a href="#about">About Peter</a></nav></div>
+</header>
+<main id="main">
+<section class="intro" aria-label="Introduction"><h2>A language opens a world.<br>Let’s explore it.</h2><p>English, conversation, and things worth talking about. An independent collection from a lifelong teacher and curious New Yorker.</p></section>
+<section class="feature" aria-labelledby="feature-title">
+<div class="landscape">
+<svg viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustrated Atlantic coastline with volcanic cliffs and a warm evening sky">
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#c5c2af"/><stop offset="1" stop-color="#e8cf9f"/></linearGradient><linearGradient id="sea" x2=".7" y2="1"><stop stop-color="#759898"/><stop offset="1" stop-color="#294b52"/></linearGradient></defs>
+<path fill="url(#sky)" d="M0 0h900v560H0z"/><circle cx="695" cy="142" r="49" fill="#f2deb0"/><path fill="url(#sea)" d="M0 255h900v305H0z"/>
+<path fill="#8d9990" d="m0 281 174-52 133 38 71 42 60 10-15 57L0 399z"/>
+<path fill="#46594f" d="m0 241 116 4 85 50 91 44 155 14 55 45-33 61L0 537z"/>
+<path fill="#2f3d32" d="m0 318 100 7 92 54 152 28 36 60 153 60 40 33H0z"/>
+<path fill="#65715a" d="m0 301 100 20 109 53 128 28 43 28-173-27L0 354z"/>
+<path fill="none" stroke="#ded9bb" stroke-opacity=".68" stroke-width="3" d="m425 331 32 33 58 20-30 53 11 13 86 42M578 297l210-2M619 326l188-2M630 375l229 1M677 415l159 3"/>
+<path fill="none" stroke="#d9cda9" stroke-width="4" d="m0 380 68 1 43 35 48 3 76 37 24 51"/>
+<path fill="none" stroke="#283a39" stroke-width="2" d="m438 141 11-3 10 5m42-37 8-2 7 3"/>
+</svg><span class="caption">Atlantic field notes / Sample illustration</span></div>
+<div class="feature-copy"><span class="eyebrow">Featured / Video preview</span><h2 id="feature-title">An island.<br>A different<br>point of view.</h2><p>A walk along the Atlantic, a change of perspective, and a few words worth taking with you. English starts with something to talk about.</p><button class="outline" type="button" id="preview">Explore the video concept &nbsp; ↗</button></div>
+</section>
+<section id="resources" aria-labelledby="resource-title">
+<div class="section-top"><h2 id="resource-title">On the learning table</h2><span>Sample selections · More to come</span></div>
+<div class="grid">
+<article class="card"><div class="cover grammar" aria-hidden="true"><small>The language series / 01</small><b>Past.<br>Present.<br>Possibility.</b><span class="plus">+</span></div><div class="category">Presentation</div><h3>A little tense.<br>A lot of meaning.</h3><p>A visual approach to the choices we make when we talk about time.</p><details><summary>Preview the idea ↗</summary><p>Sample presentation: compare “I lived here” with “I have lived here.” What changes in the story? The complete slideshow will be added here.</p></details></article>
+<article class="card"><div class="cover dialogue" aria-hidden="true"><small>Conversations / 02</small><b>“You’re<br>kidding.”</b><b class="reply">“Not at<br>all.”</b></div><div class="category">Dialogue</div><h3>Small talk.<br>Real conversation.</h3><p>What people actually say—and what they mean when they say it.</p><details><summary>Read a sample ↗</summary><p>“You moved here from New York?”<br>“I did.”<br>“That must have been a change.”<br>“A few more palm trees. A few fewer taxis.”</p><p>Try it: how would you keep this conversation going?</p></details></article>
+<article class="card"><div class="cover document" aria-hidden="true"><small>The reading room / 03</small><div class="sheet"><small>English in context</small><br><br><b>When<br>in Rome.</b><i></i><i></i><i></i><i></i></div></div><div class="category">Document</div><h3>Old stones.<br>New vocabulary.</h3><p>A reading inspired by Rome, with room for questions and discoveries.</p><details><summary>Preview the reading ↗</summary><p>Sample reading concept: a walk through ancient Rome, exploring the words “ruin,” “restore,” and “remain.” A reading document and discussion questions will follow.</p></details></article>
+<article class="card"><div class="cover tips" aria-hidden="true"><small>A note from Peter / 04</small><b>01</b><em>Listen first.<br>Then listen again.</em></div><div class="category">Tips &amp; notes</div><h3>You don’t need<br>every word.</h3><p>A small listening experiment for the next time English feels too fast.</p><details><summary>Try the tip ↗</summary><p>Listen to a short clip once for the main idea. Listen again for one useful phrase. Say it aloud, then use it in a sentence of your own.</p></details></article>
+</div></section>
+<section class="about" id="about" aria-labelledby="about-title">
+<figure class="portrait"><img src="images/peter-mangiaracina.jpg" alt="Peter Mangiaracina" loading="lazy"><figcaption>Peter Mangiaracina / Teacher · Writer · Photographer</figcaption></figure>
+<div class="bio"><span class="eyebrow">The person behind the lessons</span><h2 id="about-title">From New York.<br>Still curious.</h2>
+<p>I'm an American from New York City. Now I live and teach in the Canary Islands, Spain. I enjoy reading, writing, photography, flying drones, computers and the Internet.</p>
+<p>I also have a great love for the history of ancient Rome and spend a lot of time visiting Rome to explore the ruins and the city!</p>
+<p>When I'm not working, I play jazz guitar, record videos and photos of the island where I live, and write on many subjects.</p>
+<p>I've spent many years teaching and studying how people acquire language and am in the process of making all my discoveries available in the form of slideshows, videos and my blog.</p>
+<p class="languages">I speak English, <span lang="es">hablo español</span>, <span lang="it">e parlo un po' l'italiano!</span></p>
+</div></section>
+<section class="contact-line"><div><h2>Let’s find something to talk about.</h2><p>Explore the material. Get to know the teacher.</p></div><a class="outline" href="#about">Meet Peter &nbsp; ↗</a></section>
+</main>
+<footer><span>© 2026 Peter Mangiaracina</span><span>A new chapter in English. · Homepage preview</span><a href="#main">Back to top ↑</a></footer>
+</div>
+<dialog id="video-preview" aria-labelledby="dialog-title"><span class="eyebrow">Featured video / Coming soon</span><h2 id="dialog-title">An island. A different point of view.</h2><p>This is a sample cover for a future video. Peter’s own footage and a complete lesson will take its place.</p><form method="dialog"><button>Back to the homepage</button></form></dialog>
+<script>
+const preview=document.getElementById('video-preview');
+document.getElementById('preview').addEventListener('click',()=>preview.showModal());
+preview.addEventListener('click',event=>{if(event.target===preview){const r=preview.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)preview.close();}});
+</script>
+</body></html>
