@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Student Profile for Peter Mangiaracina's English classes.">
+<title>Student Profile — Peter Mangiaracina English in Your Face</title>
+<style>
+:root{--paper:#efede6;--ink:#20221f;--red:#a33729;--muted:#62645d;--line:#c4c4b8;--panel:#f8f6f0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.12;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3Cpath fill='%23888' filter='url(%23n)' opacity='.25' d='M0 0h180v180H0z'/%3E%3C/svg%3E");z-index:5}a{color:inherit;text-decoration:none}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--red);outline-offset:4px}.wrap{width:min(1380px,calc(100% - 96px));margin:auto}.utility{display:flex;justify-content:space-between;padding:22px 0 18px;border-bottom:1px solid var(--ink);font-size:11px;letter-spacing:1.5px;text-transform:uppercase}.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--red);margin-right:8px}.masthead{padding:25px 0 23px;border-bottom:4px solid var(--ink)}.masthead h1{margin:0;font-size:clamp(32px,6.65vw,94px);letter-spacing:-.065em;line-height:1.05;font-weight:800}.navigation{display:flex;justify-content:space-between;gap:24px;align-items:center;border-bottom:1px solid var(--ink);padding:17px 0}.brandline{font-family:Georgia,serif;font-style:italic;font-size:22px}.navigation nav{display:flex;gap:26px;font-size:13px}.navigation nav a:hover{color:var(--red)}
+.intro{display:flex;justify-content:space-between;align-items:end;gap:34px;padding:46px 0 38px}.intro h2{font-size:clamp(48px,6.4vw,88px);line-height:.97;letter-spacing:-.07em;margin:0}.intro h2 em{display:block;color:var(--red);font-family:Georgia,serif;font-size:.44em;font-weight:400;letter-spacing:-.03em;line-height:1.4}.intro p{max-width:380px;font-size:16px;line-height:1.65;color:var(--muted);margin:0}
+.profile-layout{display:grid;grid-template-columns:minmax(250px,.75fr) minmax(0,1.5fr);gap:52px;border-top:4px solid var(--ink);padding:32px 0 74px}.instructions{align-self:start;position:sticky;top:24px}.instructions .index,.form-panel .index{display:block;color:var(--red);font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:13px}.instructions h3{font-family:Georgia,serif;font-size:clamp(30px,3vw,42px);font-weight:400;line-height:1.08;letter-spacing:-1.3px;margin:0 0 24px}.instructions p{font-size:14px;line-height:1.7;margin:0 0 19px;max-width:46ch}.instructions .translation{color:var(--muted);padding-top:18px;border-top:1px solid var(--line)}.instructions .brief{border-top:1px solid var(--line);padding-top:21px;margin-top:28px}.required-note{border-left:4px solid var(--red);background:#e7e2d6;padding:15px 17px;font-size:13px;line-height:1.5;margin-top:26px}.required-note strong{display:block;margin-bottom:4px}
+.form-panel{background:var(--panel);border:1px solid var(--line);box-shadow:12px 12px 0 #20221f10;padding:37px 40px 42px}.form-panel>h3{font-family:Georgia,serif;font-size:35px;font-weight:400;line-height:1.08;letter-spacing:-1.3px;margin:0 0 24px}.form-panel>p{font-size:14px;line-height:1.65;color:var(--muted);margin:0 0 10px}.profile-form{margin-top:31px}.profile-form fieldset{border:0;border-top:2px solid var(--ink);margin:0;padding:28px 0 31px;min-width:0}.profile-form legend{float:left;width:100%;font-family:Georgia,serif;font-size:27px;line-height:1.15;letter-spacing:-.8px;margin:0 0 22px;padding:0}.field{clear:both;margin:0 0 21px}.field:last-child{margin-bottom:0}.field label,.question-label{display:block;color:var(--ink);font-size:13px;font-weight:700;line-height:1.45;margin-bottom:9px}.field input,.field textarea{display:block;width:100%;border:1px solid #aeb1a7;border-radius:0;background:#fffefa;color:var(--ink);font:inherit;font-size:15px;padding:13px 14px;min-height:49px}.field textarea{min-height:119px;resize:vertical;line-height:1.5}.field input:hover,.field textarea:hover{border-color:#777f75}.field small,.helper{display:block;color:var(--muted);font-size:12px;line-height:1.5;margin-top:8px}.field-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}.question{clear:both;margin:0 0 26px}.question:last-child{margin-bottom:0}.question .prompt{color:var(--muted);font-size:13px;line-height:1.5;margin:-4px 0 14px}.options{display:grid;grid-template-columns:1fr 1fr;gap:11px 18px}.option{display:flex;align-items:flex-start;gap:10px;font-size:13px;line-height:1.45;cursor:pointer}.option input{flex:0 0 auto;accent-color:var(--red);width:18px;height:18px;margin:0}.option-other{grid-column:1/-1}.other-entry{margin:14px 0 0 28px}.other-entry[hidden]{display:none}.error-text,[data-fs-error]{color:#9f2f23;font-size:12px;line-height:1.4;display:block;margin-top:6px}.error-text[hidden]{display:none}.verification-note{border-top:1px solid var(--line);padding-top:18px;color:var(--muted);font-size:12px;line-height:1.55}.verification-note strong{color:var(--ink)}.submit-row{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:27px}.submit-row p{margin:0;max-width:320px;color:var(--muted);font-size:11px;line-height:1.5}.submit{background:var(--red);border:1px solid var(--red);color:#fffefa;cursor:pointer;font:inherit;font-size:12px;font-weight:700;letter-spacing:1.1px;text-transform:uppercase;padding:16px 22px}.submit:hover{background:var(--ink);border-color:var(--ink)}.submit:disabled{cursor:wait;opacity:.6}.form-message{font-size:14px;line-height:1.5;margin:20px 0 0}[data-fs-success]:not([data-fs-active]),[data-fs-error=""]:not([data-fs-active]){display:none}.success-message{color:#336448}.error-message{color:#9f2f23}.honeypot{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}footer{padding:30px 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:24px;font-size:11px;color:var(--muted)}
+@media(max-width:980px){.wrap{width:calc(100% - 48px)}.profile-layout{grid-template-columns:1fr;gap:34px}.instructions{position:static}.instructions p{max-width:85ch}.instructions .brief{margin-top:20px}.form-panel{max-width:860px}}
+@media(max-width:650px){.wrap{width:calc(100% - 32px)}.utility{font-size:8px;padding:16px 0}.utility .edition{display:none}.masthead{padding:24px 0 20px}.masthead h1{font-size:clamp(28px,7.4vw,48px)}.navigation{align-items:start;flex-direction:column;gap:15px}.navigation nav{width:100%;gap:15px;flex-wrap:wrap;font-size:12px}.intro{display:block;padding:30px 0 25px}.intro h2{font-size:48px}.intro p{margin-top:18px}.profile-layout{padding-top:26px}.form-panel{padding:26px 20px 30px;box-shadow:6px 6px 0 #20221f10}.field-row,.options{grid-template-columns:1fr}.option-other{grid-column:auto}.submit-row{align-items:stretch;flex-direction:column}.submit{width:100%}footer{font-size:10px;line-height:1.5}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+<link rel="icon" href="/favicon.ico?v=1" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png?v=1">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1">
+</head>
+<body><div class="wrap">
+<header><div class="utility"><span><span class="dot"></span>Your voice is human. Your English should be too.</span><span class="edition">Documents / Student Profile</span></div><div class="masthead"><h1>Peter Mangiaracina<span style="color:var(--red)">.</span></h1></div><div class="navigation"><a class="brandline" href="../../">English in Your Face</a><nav aria-label="Main navigation"><a href="../../">Home</a><a href="../">Documents</a><a href="../../videos/">Videos</a><a href="../../presentations/">Presentations</a><a href="../../contact/">Contact</a></nav></div></header>
+<main>
+<section class="intro"><h2>Student Profile<em>Perfil del alumno</em></h2><p>Tell me about your work, your interests, and where you want English to take you. I’ll use your answers to shape our classes from the beginning.</p></section>
+<div class="profile-layout">
+<aside class="instructions" aria-labelledby="instructions-title"><span class="index">01 / Before you begin</span><h3 id="instructions-title">Instructions / Instrucciones</h3>
+<p><strong>Please complete this form and click the “Send / Enviar” button when you have finished.</strong></p>
+<p>The information you provide will remain private and will be used only by Peter to help plan and personalize your English classes. You will <strong>not</strong> be added to a mailing list and you will <strong>not</strong> receive unsolicited emails. I will contact you only if you request additional information or if I need to send you materials related to your classes.</p>
+<div class="translation" lang="es"><p><strong>Por favor, completa este formulario y, cuando hayas terminado, haz clic en el botón “Send / Enviar”.</strong></p>
+<p>La información que proporciones será privada y Peter la utilizará únicamente para planificar y personalizar tus clases de inglés. <strong>No</strong> se te añadirá a ninguna lista de correo ni recibirás correos electrónicos no solicitados. Solo me pondré en contacto contigo si solicitas información adicional o si necesito enviarte material relacionado con tus clases.</p></div>
+<div class="brief"><p>This short profile will help me plan your English classes around your needs, interests, and goals.</p><p lang="es">Este breve perfil me ayudará a organizar tus clases de inglés de acuerdo con tus necesidades, intereses y objetivos.</p></div>
+<div class="required-note"><strong>All fields are required. / Todos los campos son obligatorios.</strong>If a question does not apply, write “None / Nada.” For each checklist, choose at least one option.<br><span lang="es">Si una pregunta no corresponde, escribe “None / Nada”. En cada lista, elige al menos una opción.</span></div>
+</aside>
+<div class="form-panel"><span class="index">02 / Your answers</span><h3>Your starting point.</h3><p>English first, Spanish second. Take your time.</p><p lang="es">Primero en inglés, después en español. Tómate tu tiempo.</p>
+<div data-fs-success class="form-message success-message" role="status">Your profile has been sent. Thank you. / Tu perfil se ha enviado. Gracias.</div>
+<div data-fs-error class="form-message error-message" role="alert"></div>
+<form id="student-profile-form" class="profile-form" action="https://formspree.io/f/moeqgoyv" method="POST">
+<input type="hidden" name="subject" value="Student Profile / Perfil del alumno">
+<input type="hidden" name="name" id="full-name">
+<fieldset><legend>Personal Information / Datos personales</legend>
+<div class="field-row"><div class="field"><label for="first-name">First name / Nombre</label><input id="first-name" name="first_name" autocomplete="given-name" maxlength="100" required data-fs-field><span data-fs-error="first_name"></span></div>
+<div class="field"><label for="last-names">Last names (both surnames) / Apellidos</label><input id="last-names" name="last_names" autocomplete="family-name" maxlength="140" required data-fs-field><span data-fs-error="last_names"></span></div></div>
+<div class="field-row"><div class="field"><label for="email">Email / Correo electrónico</label><input id="email" name="email" type="email" autocomplete="email" maxlength="200" required data-fs-field><span data-fs-error="email"></span></div>
+<div class="field"><label for="phone">Phone / Teléfono</label><input id="phone" name="phone" type="tel" autocomplete="tel" maxlength="40" required data-fs-field><span data-fs-error="phone"></span></div></div>
+<div class="question"><span class="question-label">Country and City / País y ciudad</span><span class="helper">City and country only. Please do not include your street address.<br><span lang="es">Solo el país y la ciudad. Por favor, no incluyas tu dirección.</span></span></div>
+<div class="field-row"><div class="field"><label for="country">Country / País</label><input id="country" name="country" autocomplete="country-name" maxlength="100" required data-fs-field><span data-fs-error="country"></span></div>
+<div class="field"><label for="city">City / Ciudad</label><input id="city" name="city" autocomplete="address-level2" maxlength="100" required data-fs-field><span data-fs-error="city"></span></div></div>
+</fieldset>
+<fieldset><legend>Work / Trabajo</legend><div class="field"><label for="work">What do you do for a living?<br><span lang="es">¿A qué te dedicas?</span></label><textarea id="work" name="work" maxlength="1200" required data-fs-field></textarea><span data-fs-error="work"></span></div></fieldset>
+<fieldset><legend>English / Inglés</legend>
+<div class="field"><label for="why-english">Why do you want to improve your English?<br><span lang="es">¿Por qué quieres mejorar tu inglés?</span></label><textarea id="why-english" name="why_english" maxlength="1200" required data-fs-field></textarea><span data-fs-error="why_english"></span></div>
+<div class="question" data-required-group="current-use"><span class="question-label" id="current-use-label">When or where do you currently use English?<br><span lang="es">¿Cuándo o dónde utilizas inglés actualmente?</span></span><div class="options" role="group" aria-labelledby="current-use-label">
+<label class="option"><input type="checkbox" name="current_use" value="At work / En el trabajo">At work / En el trabajo</label>
+<label class="option"><input type="checkbox" name="current_use" value="When traveling / Cuando viajo">When traveling / Cuando viajo</label>
+<label class="option"><input type="checkbox" name="current_use" value="With friends or family / Con amigos o familiares">With friends or family / Con amigos o familiares</label>
+<label class="option"><input type="checkbox" name="current_use" value="Watching films, TV, or videos / Viendo películas, televisión o vídeos">Watching films, TV, or videos / Viendo películas, televisión o vídeos</label>
+<label class="option"><input type="checkbox" name="current_use" value="Reading / Leyendo">Reading / Leyendo</label>
+<label class="option"><input type="checkbox" name="current_use" value="Online / En Internet">Online / En Internet</label>
+<label class="option"><input type="checkbox" name="current_use" value="I rarely or never use English / Rara vez o nunca uso inglés">I rarely or never use English / Rara vez o nunca uso inglés</label>
+<label class="option option-other"><input id="use-other" type="checkbox" name="current_use" value="Other / Otro">Other / Otro</label></div><div class="field other-entry" id="other-use-entry" hidden><label for="other-use">Other / Otro</label><input id="other-use" name="other_use" maxlength="200" disabled data-fs-field><span data-fs-error="other_use"></span></div><span class="error-text" id="current-use-error" hidden>Choose at least one. / Elige al menos una opción.</span></div>
+<div class="question" data-required-group="improvements"><span class="question-label" id="improvements-label">What would you most like to improve?<br><span lang="es">¿Qué te gustaría mejorar más?</span></span><p class="prompt">You may choose more than one. / Puedes elegir más de una opción.</p><div class="options" role="group" aria-labelledby="improvements-label">
+<label class="option"><input type="checkbox" name="improvements" value="Speaking / Expresión oral">Speaking / Expresión oral</label>
+<label class="option"><input type="checkbox" name="improvements" value="Listening / Comprensión auditiva">Listening / Comprensión auditiva</label>
+<label class="option"><input type="checkbox" name="improvements" value="Pronunciation / Pronunciación">Pronunciation / Pronunciación</label>
+<label class="option"><input type="checkbox" name="improvements" value="Vocabulary / Vocabulario">Vocabulary / Vocabulario</label>
+<label class="option"><input type="checkbox" name="improvements" value="Grammar / Gramática">Grammar / Gramática</label>
+<label class="option"><input type="checkbox" name="improvements" value="Reading / Comprensión lectora">Reading / Comprensión lectora</label>
+<label class="option"><input type="checkbox" name="improvements" value="Writing / Expresión escrita">Writing / Expresión escrita</label>
+<label class="option"><input type="checkbox" name="improvements" value="Confidence when speaking / Confianza al hablar">Confidence when speaking / Confianza al hablar</label></div><span class="error-text" id="improvements-error" hidden>Choose at least one. / Elige al menos una opción.</span></div>
+</fieldset>
+<fieldset><legend>Interests / Intereses</legend><div class="field"><label for="interests">What are your hobbies and interests?<br><span lang="es">¿Cuáles son tus aficiones e intereses?</span></label><textarea id="interests" name="interests" maxlength="1200" required data-fs-field></textarea><span data-fs-error="interests"></span></div></fieldset>
+<fieldset><legend>The Future / El futuro</legend><div class="field"><label for="future">What would you like to be doing five years from now?<br><span lang="es">¿Qué te gustaría estar haciendo dentro de cinco años?</span></label><textarea id="future" name="future" maxlength="1200" required data-fs-field></textarea><span data-fs-error="future"></span></div></fieldset>
+<fieldset><legend>Anything Else? / ¿Algo más?</legend><div class="field"><label for="anything-else">Is there anything else you would like me to know that could help me make your English classes more useful or interesting for you?<br><span lang="es">¿Hay algo más que te gustaría que supiera que pudiera ayudarme a hacer tus clases de inglés más útiles o interesantes para ti?</span></label><textarea id="anything-else" name="anything_else" maxlength="1200" required data-fs-field></textarea><small>If nothing else, write “None / Nada.” / Si no hay nada más, escribe “None / Nada”.</small><span data-fs-error="anything_else"></span></div></fieldset>
+<div class="honeypot" aria-hidden="true"><label for="website">Leave this field blank</label><input id="website" name="_gotcha" tabindex="-1" autocomplete="off"></div>
+<div class="verification-note"><strong>Human verification / Verificación humana.</strong> This form uses the same spam filtering as the contact form. Formspree may request a CAPTCHA when you send it.<br><span lang="es">Este formulario utiliza la misma protección contra el spam que el formulario de contacto. Es posible que se solicite un CAPTCHA al enviarlo.</span></div>
+<div class="submit-row"><p>Your answers are delivered through Formspree to Peter’s inbox; they are not posted on this website.<br><span lang="es">Tus respuestas se envían mediante Formspree al correo de Peter; no se publican en este sitio web.</span></p><button class="submit" type="submit" data-fs-submit-btn disabled>Send / Enviar ↗</button></div>
+</form></div></div>
+</main>
+<footer><span>© Peter Mangiaracina 1995–2027</span><a href="../">Back to Documents ↑</a></footer>
+</div>
+<script>
+const form=document.getElementById("student-profile-form");
+const requiredGroups=[...form.querySelectorAll("[data-required-group]")];
+function updateGroup(group){
+  const boxes=[...group.querySelectorAll('input[type="checkbox"]')];
+  const hasChoice=boxes.some(box=>box.checked);
+  boxes[0].setCustomValidity(hasChoice?"":"Choose at least one. / Elige al menos una opción.");
+  const error=group.querySelector(".error-text");
+  if(error)error.hidden=hasChoice||!group.dataset.touched;
+  return hasChoice;
+}
+requiredGroups.forEach(group=>{
+  group.querySelectorAll('input[type="checkbox"]').forEach(box=>box.addEventListener("change",()=>{group.dataset.touched="true";updateGroup(group)}));
+  group.querySelector('input[type="checkbox"]').addEventListener("invalid",()=>{group.dataset.touched="true";updateGroup(group)});
+  updateGroup(group);
+});
+const otherCheck=document.getElementById("use-other"),otherEntry=document.getElementById("other-use-entry"),otherInput=document.getElementById("other-use");
+function updateOther(){otherEntry.hidden=!otherCheck.checked;otherInput.disabled=!otherCheck.checked;otherInput.required=otherCheck.checked;if(!otherCheck.checked){otherInput.value="";otherInput.setCustomValidity("")}}
+otherCheck.addEventListener("change",updateOther);updateOther();
+const requiredText=[...form.querySelectorAll('input:not([type="checkbox"]),textarea')].filter(field=>field.type!=="hidden");
+function validateText(field){field.setCustomValidity(field.required&&field.value&&!field.value.trim()?"Please enter an answer. / Escribe una respuesta.":"")}
+requiredText.forEach(field=>field.addEventListener("input",()=>validateText(field)));
+form.addEventListener("submit",event=>{
+  requiredText.forEach(validateText);
+  requiredGroups.forEach(group=>{group.dataset.touched="true";updateGroup(group)});
+  if(document.getElementById("website").value||!form.checkValidity()){
+    event.preventDefault();event.stopImmediatePropagation();form.reportValidity();return;
+  }
+  document.getElementById("full-name").value=document.getElementById("first-name").value.trim()+" "+document.getElementById("last-names").value.trim();
+},true);
+form.querySelector('button[type="submit"]').disabled=false;
+</script>
+<script>window.formspree=window.formspree||function(){(formspree.q=formspree.q||[]).push(arguments)};formspree("initForm",{formElement:"#student-profile-form",formId:"moeqgoyv"});</script>
+<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+</body></html>
