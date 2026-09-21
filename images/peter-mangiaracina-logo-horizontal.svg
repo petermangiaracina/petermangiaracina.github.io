@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Peter Mangiaracina</title><desc id="desc">PM monogram in a red circle with eccentric calligraphic flourishes beside the name Peter Mangiaracina.</desc>
+<g fill="none" stroke="#20221f" stroke-width="5" stroke-linecap="round">
+<path d="M45 180 C120 80 265 42 390 55 C455 62 480 92 430 116 C350 155 205 142 118 190 C64 220 70 246 118 240"/>
+<path d="M175 238 C112 222 118 164 168 149 C230 130 294 166 338 207 C370 237 420 241 454 207"/>
+</g>
+<g fill="none" stroke="#a33729" stroke-width="2"><circle cx="245" cy="150" r="124"/><circle cx="245" cy="150" r="116"/></g>
+<circle cx="245" cy="150" r="112" fill="#a33729"/>
+<g fill="#efede6" font-family="Georgia, 'Times New Roman', serif">
+<text x="155" y="205" font-size="190">P</text>
+<text x="240" y="218" font-size="168">M</text>
+</g>
+<g fill="#a33729"><circle cx="92" cy="202" r="8"/><circle cx="412" cy="72" r="7"/><circle cx="392" cy="91" r="4"/><circle cx="176" cy="276" r="5"/></g>
+<g fill="#20221f" font-family="Georgia, 'Times New Roman', serif">
+<text x="500" y="135" font-size="62" letter-spacing="15">PETER</text>
+<text x="500" y="205" font-size="54" letter-spacing="8">MANGIARACINA</text>
+</g>
+<path d="M500 235 H1080" stroke="#20221f" stroke-width="2"/><circle cx="790" cy="235" r="7" fill="#a33729"/>
+</svg>
