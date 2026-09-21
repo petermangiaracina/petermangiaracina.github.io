@@ -16,6 +16,20 @@
 .page-intro{padding-bottom:clamp(44px,5vw,68px)}
 .section-heading{padding-top:clamp(32px,4vw,48px);margin-bottom:28px}
 .featured{margin-bottom:clamp(60px,6vw,84px)}
+
+.presentation-index{border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);margin:0 0 28px}
+.presentation-index summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 0;font-size:12px;font-weight:bold;letter-spacing:1.4px;text-transform:uppercase}
+.presentation-index summary::-webkit-details-marker{display:none}
+.presentation-index summary::after{content:"↓";color:var(--red);font-size:20px;line-height:1;transition:transform .2s ease}
+.presentation-index[open] summary::after{transform:rotate(180deg)}
+.presentation-index summary:focus-visible{outline:3px solid var(--red);outline-offset:5px}
+.presentation-index-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 32px;list-style:none;padding:4px 0 24px;margin:0}
+.presentation-index-list li{border-top:1px solid var(--line)}
+.presentation-index-list a{display:block;padding:13px 0;font-size:14px;line-height:1.35}
+.presentation-index-list a:hover{color:var(--red)}
+@media(max-width:900px){.presentation-index-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.presentation-index-list{grid-template-columns:1fr}}
+
 </style>
 
 <link rel="icon" href="/favicon.ico?v=1" sizes="any">
@@ -24,7 +38,23 @@
 </head>
 <body><div class="wrap">
 <header><div class="utility"><span><span class="dot"></span>Your voice is human. Your English should be too.</span><span class="edition">12 presentations · 3 coming soon</span></div><div class="masthead"><h1>Peter Mangiaracina<span style="color:var(--red)">.</span></h1></div><div class="navigation"><a class="brandline" href="../">English in Your Face</a><nav aria-label="Main navigation"><a href="../">Home</a><a href="../documents/">Documents</a><a href="../videos/">Videos</a><a href="./">Presentations</a><a href="../#about">About Peter</a></nav></div></header>
-<main><section class="page-intro"><h2>Presentations<br>with a point.</h2><p>Choose a presentation and work through the slides at your own pace. Afterwards, take the short quiz and check your answers. Your answers are not saved or sent anywhere. If you refresh or leave the page, they disappear.</p></section><h2 class="section-heading">Featured Presentation</h2><section class="featured" aria-labelledby="featured-title"><a class="featured-visual presentation-link" href="./common-mistakes-spanish-speakers/" data-title="Common Mistakes of Native Spanish Speakers" aria-label="Open featured Common Mistakes of Native Spanish Speakers presentation" style="padding:0;background:#d1a957;justify-content:center"><img src="./common-mistakes-spanish-speakers/images/slide-01.svg" alt="Common Mistakes of Native Spanish Speakers presentation cover" style="display:block;width:100%;height:auto;object-fit:contain"></a><div class="featured-copy"><div><h2 id="featured-title">Common Mistakes of Native Spanish Speakers</h2><p>A practical guide to recurring mistakes caused by translating Spanish directly into English, with examples of the correct patterns.</p></div><a class="featured-action presentation-link" href="./common-mistakes-spanish-speakers/" data-title="Common Mistakes of Native Spanish Speakers">Open featured presentation <b>↗</b></a></div></section><h2 class="section-heading presentations-heading">Presentations</h2><p class="presentations-intro">Each presentation is a short lesson. The dedicated page will show the slides one at a time, followed by an explanation and a small private quiz. Your answers stay in your browser and disappear when you leave.</p><div class="page-rule"><span>Presentation collection</span><span>12 presentations · 3 coming soon · Select an available card to begin</span></div><section class="presentation-grid" aria-label="Presentation collection"><article class="presentation-card" data-level="all">
+<main><section class="page-intro"><h2>Presentations<br>with a point.</h2><p>Choose a presentation and work through the slides at your own pace. Afterwards, take the short quiz and check your answers. Your answers are not saved or sent anywhere. If you refresh or leave the page, they disappear.</p></section><h2 class="section-heading">Featured Presentation</h2><section class="featured" aria-labelledby="featured-title"><a class="featured-visual presentation-link" href="./common-mistakes-spanish-speakers/" data-title="Common Mistakes of Native Spanish Speakers" aria-label="Open featured Common Mistakes of Native Spanish Speakers presentation" style="padding:0;background:#d1a957;justify-content:center"><img src="./common-mistakes-spanish-speakers/images/slide-01.svg" alt="Common Mistakes of Native Spanish Speakers presentation cover" style="display:block;width:100%;height:auto;object-fit:contain"></a><div class="featured-copy"><div><h2 id="featured-title">Common Mistakes of Native Spanish Speakers</h2><p>A practical guide to recurring mistakes caused by translating Spanish directly into English, with examples of the correct patterns.</p></div><a class="featured-action presentation-link" href="./common-mistakes-spanish-speakers/" data-title="Common Mistakes of Native Spanish Speakers">Open featured presentation <b>↗</b></a></div></section><h2 class="section-heading presentations-heading">Presentations</h2><details class="presentation-index">
+<summary>Presentation index</summary>
+<ul class="presentation-index-list">
+<li><a href="./chart-of-the-tenses/">A Chart of the Tenses</a></li>
+<li><a href="./auxiliaries/">Auxiliaries</a></li>
+<li><a href="./common-mistakes-spanish-speakers/">Common Mistakes of Native Spanish Speakers</a></li>
+<li><a href="./comparatives-superlatives/">Comparatives and Superlatives</a></li>
+<li><a href="./conditionals/">Conditionals</a></li>
+<li><a href="./intro-to-english/">Intro to English Classes</a></li>
+<li><a href="./phrase-clause-sentence/">Phrases, Clauses, and Sentences</a></li>
+<li><a href="./prepositions/">Prepositions in Context</a></li>
+<li><a href="./say-and-tell/">Say and Tell</a></li>
+<li><a href="./such-and-so/">Such and So</a></li>
+<li><a href="./definite-article/">The Definite Article</a></li>
+<li><a href="./uses-of-used-to/">Uses of “Used To”</a></li>
+</ul>
+</details><p class="presentations-intro">Each presentation is a short lesson. The dedicated page will show the slides one at a time, followed by an explanation and a small private quiz. Your answers stay in your browser and disappear when you leave.</p><div class="page-rule"><span>Presentation collection</span><span>12 presentations · 3 coming soon · Select an available card to begin</span></div><section class="presentation-grid" aria-label="Presentation collection"><article class="presentation-card" data-level="all">
 <a class="presentation-link" href="./intro-to-english/" data-title="Intro to English Classes" aria-label="Open Intro to English Classes presentation">
 <div class="slide-cover c0" style="--cover:#20221f;background-image:url('./intro-to-english/images/slide-01.svg');background-size:cover;background-position:center;color:transparent"><span class="slide-no">01 / 18</span><span class="slide-kicker">English in Your Face</span><strong>Intro to English Classes</strong><span class="slide-mark">↗</span></div>
 <div class="card-copy"><div class="card-meta"><span>All levels</span><span>Presentation</span></div><h2>Intro to English Classes</h2><p>Principles of doing well in English class.</p><span class="card-action">Open presentation <b>↗</b></span></div>
