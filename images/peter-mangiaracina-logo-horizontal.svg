@@ -12,8 +12,7 @@
 </g>
 <g fill="#a33729"><circle cx="92" cy="202" r="8"/><circle cx="412" cy="72" r="7"/><circle cx="392" cy="91" r="4"/><circle cx="176" cy="276" r="5"/></g>
 <g fill="#20221f" font-family="Georgia, 'Times New Roman', serif">
-<text x="500" y="135" font-size="62" letter-spacing="15">PETER</text>
-<text x="500" y="205" font-size="54" letter-spacing="8">MANGIARACINA</text>
+<text x="500" y="175" font-size="56" letter-spacing="7">PETER <tspan font-size="64">M</tspan><tspan font-size="56">ANGIARACINA</tspan></text>
 </g>
 <path d="M500 235 H1080" stroke="#20221f" stroke-width="2"/><circle cx="790" cy="235" r="7" fill="#a33729"/>
 </svg>
