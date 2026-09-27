@@ -22,7 +22,7 @@
 <main><a class="back-link" href="../">← Back to Presentations</a>
 <section class="page-intro"><h2>Reported Speech.</h2><p>How to transform statements, questions, commands, requests, and advice into reported speech.</p></section>
 <div class="page-rule"><span>Reported Speech</span><span id="progress-label">Slide 1 of 8</span></div>
-<section class="viewer" aria-label="Reported Speech presentation"><div class="slide-stage"><img id="slide-image" src="./images/slide-01.svg" alt="Slide 1 of 8"></div><div class="viewer-controls"><button id="previous" type="button" disabled="">← Back</button><span class="slide-count" id="slide-count" aria-live="polite">Slide 1 of 8</span><button id="next" type="button">Next →</button></div></section>
+<section class="viewer" aria-label="Reported Speech presentation"><div class="slide-stage"><img id="slide-image" src="./images/slide-01.svg?v=feb6c21" alt="Slide 1 of 8"></div><div class="viewer-controls"><button id="previous" type="button" disabled="">← Back</button><span class="slide-count" id="slide-count" aria-live="polite">Slide 1 of 8</span><button id="next" type="button">Next →</button></div></section>
 
 <section class="lesson-note" aria-labelledby="synopsis-title"><h2 id="synopsis-title">Summary</h2><div class="synopsis-copy"><p><strong>Reported Speech</strong> explains how to retell another person’s words directly or indirectly. Direct speech repeats the speaker’s exact words. Reported speech changes the sentence structure and may change the tense, pronouns, and verb forms.</p><p>When the reporting verb is in the present, the tense does not change. When the reporting verb is in the past, the following verb normally moves one step back. Reported questions use statement word order. Yes-or-no questions use <em>if</em> or <em>whether</em>. Commands, requests, and advice use an infinitive phrase.</p><h3>Important points</h3><ul><li>Direct speech uses the speaker’s exact words; reported speech retells the meaning.</li><li>A present reporting verb can leave the original tense unchanged.</li><li>A past reporting verb normally moves the following verb one step back.</li><li>Present forms can move to past forms; past and present perfect forms can move to past perfect.</li><li><em>Can</em> can become <em>could</em>, and <em>will</em> can become <em>would</em>.</li><li>Reported information questions keep the question word but use statement word order.</li><li>Reported yes-or-no questions use <em>if</em> or <em>whether</em>.</li><li>Commands, requests, and advice use reporting verbs such as <em>tell</em>, <em>ask</em>, and <em>advise</em> with an infinitive phrase.</li></ul></div></section>
 
@@ -48,7 +48,7 @@ const progress=document.getElementById('progress-label');
 function showSlide(number){
  currentSlide=Math.max(1,Math.min(totalSlides,number));
  const padded=String(currentSlide).padStart(2,'0');
- image.src='./images/slide-'+padded+'.svg';
+ image.src='./images/slide-'+padded+'.svg?v=feb6c21';
  image.alt='Slide '+currentSlide+' of '+totalSlides;
  count.textContent='Slide '+currentSlide+' of '+totalSlides;
  progress.textContent='Slide '+currentSlide+' of '+totalSlides;
