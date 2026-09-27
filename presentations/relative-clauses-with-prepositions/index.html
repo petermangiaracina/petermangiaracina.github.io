@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="A complete lesson on relative clauses with prepositions, with an eleven-slide presentation, summary, important points, and a private self-test.">
+<meta name="description" content="A complete lesson on relative clauses with prepositions, with a twelve-slide presentation, summary, important points, and a private self-test.">
 <title>Relative Clauses with Prepositions — English in Your Face</title>
 <style>
 :root{--paper:#efede6;--ink:#20221f;--red:#a33729;--muted:#62645d;--line:#c4c4b8}
@@ -19,11 +19,11 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1">
 </head>
 <body><div class="wrap">
-<header><div class="utility"><span><span class="dot"></span>Your voice is human. Your English should be too.</span><span class="edition">11 slides</span></div><div class="masthead"><h1>Peter Mangiaracina<span style="color:var(--red)">.</span></h1></div><div class="navigation"><a class="brandline" href="../../">English in Your Face</a><nav aria-label="Main navigation"><a href="../../">Home</a><a href="../../documents/">Documents</a><a href="../../videos/">Videos</a><a href="../">Presentations</a><a href="../../#about">About Peter</a></nav></div></header>
+<header><div class="utility"><span><span class="dot"></span>Your voice is human. Your English should be too.</span><span class="edition">12 slides</span></div><div class="masthead"><h1>Peter Mangiaracina<span style="color:var(--red)">.</span></h1></div><div class="navigation"><a class="brandline" href="../../">English in Your Face</a><nav aria-label="Main navigation"><a href="../../">Home</a><a href="../../documents/">Documents</a><a href="../../videos/">Videos</a><a href="../">Presentations</a><a href="../../#about">About Peter</a></nav></div></header>
 <main><a class="back-link" href="../">← Back to Presentations</a>
 <section class="page-intro"><h2>Relative Clauses with Prepositions.</h2><p>Subject forms, object forms, and the placement of prepositions in relative clauses.</p></section>
-<div class="page-rule"><span>Relative Clauses with Prepositions</span><span id="progress-label">Slide 1 of 11</span></div>
-<section class="viewer" aria-label="Relative Clauses with Prepositions presentation"><div class="slide-stage"><img id="slide-image" src="./images/slide-01.svg" alt="Slide 1 of 11"></div><div class="viewer-controls"><button id="previous" type="button" disabled>← Back</button><span class="slide-count" id="slide-count" aria-live="polite">Slide 1 of 11</span><button id="next" type="button">Next →</button></div></section>
+<div class="page-rule"><span>Relative Clauses with Prepositions</span><span id="progress-label">Slide 1 of 12</span></div>
+<section class="viewer" aria-label="Relative Clauses with Prepositions presentation"><div class="slide-stage"><img id="slide-image" src="./images/slide-title.svg?v=title-page-1" alt="Title slide: Relative Clauses with Prepositions"></div><div class="viewer-controls"><button id="previous" type="button" disabled>← Back</button><span class="slide-count" id="slide-count" aria-live="polite">Slide 1 of 12</span><button id="next" type="button">Next →</button></div></section>
 
 <section class="lesson-note" aria-labelledby="synopsis-title"><h2 id="synopsis-title">Summary</h2><div class="synopsis-copy"><p><strong>Relative Clauses with Prepositions</strong> distinguishes subject and object forms in relative clauses. When the relative word performs the action, <em>who</em> or <em>that</em> supplies the subject and cannot simply disappear. When the clause already has a subject, <em>whom</em> or <em>which</em> functions as the object and can often be omitted.</p><p>The presentation contrasts formal structures such as <em>the person to whom I spoke</em> with everyday structures such as <em>the person I spoke to</em>. In everyday English, the object relative word can disappear and the preposition remains with the verb.</p><h3>Important points</h3><ul><li>Every relative clause needs a subject.</li><li>Use <em>who</em> or <em>that</em> when the relative word performs the action.</li><li>An object relative word can often be omitted because the clause already contains a subject.</li><li>Formal English places a preposition before <em>whom</em> or <em>which</em>.</li><li>Everyday English commonly leaves the preposition with the verb.</li><li>First decide whether the repeated noun is the subject or the object inside the relative clause.</li></ul></div></section>
 
@@ -39,7 +39,7 @@
 <div class="quiz-actions"><button type="submit">Check answers</button><button type="reset">Start again</button></div><p id="quiz-result" class="quiz-result" role="status" aria-live="polite" aria-atomic="true"></p></form><noscript><p>JavaScript must be enabled to check your answers.</p></noscript></div></section>
 </main><footer><span>© Peter Mangiaracina 1995–2027</span><a href="../">Back to presentations ↑</a></footer></div>
 <script>
-const totalSlides=11;
+const totalSlides=12;
 let currentSlide=1;
 const image=document.getElementById('slide-image');
 const previous=document.getElementById('previous');
@@ -48,9 +48,9 @@ const count=document.getElementById('slide-count');
 const progress=document.getElementById('progress-label');
 function showSlide(number){
  currentSlide=Math.max(1,Math.min(totalSlides,number));
- const padded=String(currentSlide).padStart(2,'0');
- image.src='./images/slide-'+padded+'.svg';
- image.alt='Slide '+currentSlide+' of '+totalSlides;
+ const padded=String(currentSlide-1).padStart(2,'0');
+ image.src=currentSlide===1?'./images/slide-title.svg?v=title-page-1':'./images/slide-'+padded+'.svg?v=title-page-1';
+ image.alt=currentSlide===1?'Title slide: Relative Clauses with Prepositions':'Slide '+currentSlide+' of '+totalSlides;
  count.textContent='Slide '+currentSlide+' of '+totalSlides;
  progress.textContent='Slide '+currentSlide+' of '+totalSlides;
  previous.disabled=currentSlide===1;
