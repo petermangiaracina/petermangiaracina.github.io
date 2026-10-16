@@ -17,3 +17,12 @@ content:
       - name: body
         label: Test text
         type: rich-text
+  - name: teaching-method
+    label: Teaching Method (live homepage)
+    type: file
+    path: cms-content/method.json
+    fields:
+      - name: intro
+        label: First paragraph of My Teaching Method
+        type: text
+        required: true
