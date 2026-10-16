@@ -138,7 +138,7 @@ a{color:inherit;text-decoration:none}button{font:inherit}a:focus-visible,button:
 <figure class="method-example"><blockquote>“Tomorrow comes my friend.”</blockquote><figcaption>Spanish syntax. English words.</figcaption></figure>
 </header>
 <div class="teaching-copy">
-<p>To speak effectively you need to look at language from a cognitive perspective. Many English as a Second Language (ESL) teachers spend most of the time asking you to translate from your native language to English.</p>
+<p id="cms-method-intro">To speak effectively you need to look at language from a cognitive perspective. Many English as a Second Language (ESL) teachers spend most of the time asking you to translate from your native language to English.</p>
 <p>However, making an association between your native language, which already exerts a strong influence over your thought process, and a new language, with which you are for the most part unfamiliar, causes you to forget or at best confuse your native tongue with your new language. This causes many syntax errors. For example, my Spanish students frequently say things like, “Tomorrow comes my friend.” Spanish syntax, English words. The problem is much more common than you might think.</p>
 <p>We avoid this by teaching “what lies behind” sentences (their structure), for although there are more than one million words in the English language, there are many fewer constructions, with two or three the basis for all the others.</p>
 <p>If you learn these constructions by practicing them repeatedly, it becomes a matter of just “plugging in” the vocabulary. Learning these structures, from the simplest to the most complicated, should be the primary goal of any language learning process.</p>
@@ -151,4 +151,14 @@ a{color:inherit;text-decoration:none}button{font:inherit}a:focus-visible,button:
 </div>
 
 
+
+<script>
+/* Optional CMS-managed paragraph. Keep the original HTML as a fallback. */
+fetch('/cms-content/method.json', {cache:'no-store'})
+  .then(response => { if (!response.ok) throw new Error('CMS content unavailable'); return response.json(); })
+  .then(data => { if (typeof data.intro === 'string' && data.intro.trim()) {
+    document.getElementById('cms-method-intro').textContent = data.intro;
+  }})
+  .catch(() => {});
+</script>
 </body></html>
