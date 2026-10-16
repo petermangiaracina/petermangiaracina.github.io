@@ -21,6 +21,7 @@ content:
     label: Teaching Method (live homepage)
     type: file
     path: cms-content/method.json
+    format: json
     fields:
       - name: intro
         label: First paragraph of My Teaching Method
