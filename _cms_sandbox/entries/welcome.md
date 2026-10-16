@@ -1,5 +1,4 @@
 ---
-title: Welcome to the CMS test area
+title: " my motto "
 ---
-
-This is a practice entry. Editing it in Pages CMS will not change the public website.
+Showing pipe biters my swollen meat.
